@@ -12,6 +12,7 @@ export class AppController {
 
   @Get()
   getHello(): string {
+    // thisを使っている。インスタンスのプロパティ
     return this.appService.getHello();
   }
 }
